@@ -53,7 +53,7 @@ klarerhimmel = ImageTk.PhotoImage(klar1)
 
 def Abfrage():
 
-    url= 'http://api.openweathermap.org/data/2.5/weather?appid=9ccf323823e14d7617acb485bb4533e2&q=tuebingen'
+    url= 'http://api.openweathermap.org/data/2.5/weather?appid=&q=tuebingen'
 
     data=requests.get(url).json()
     
